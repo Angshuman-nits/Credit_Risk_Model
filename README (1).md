@@ -12,6 +12,7 @@ Key contributions:
 - Implemented and tuned XGBoost models using systematic hyperparameter search for better discrimination and predictive stability.  
 - Performed rigorous model validation using advanced metrics (MCC, Brier Score, DPI) and produced diagnostic reports with actionable recommendations.
 
+Dataset Link- https://huggingface.co/datasets/spectrallabs/credit-scoring-training-dataset
 ---
 
 ## Highlights / Key Features
