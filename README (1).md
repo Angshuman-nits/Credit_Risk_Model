@@ -8,7 +8,7 @@
 This repository contains work performed during a model validation internship focused on credit risk modeling and governance. The goal was to validate, optimize and harden a credit default prediction model using industry-grade feature engineering, model tuning and robust validation metrics to support model governance and stakeholder decision-making.
 
 Key contributions:
-- Designed feature-selection workflows (WOE–IV, RFE) to remove multicollinearity and improve interpretability.  
+- Designed feature-selection workflow (WOE–IV) to remove multicollinearity and improve interpretability.  
 - Implemented and tuned XGBoost models using systematic hyperparameter search for better discrimination and predictive stability.  
 - Performed rigorous model validation using advanced metrics (MCC, Brier Score, DPI) and produced diagnostic reports with actionable recommendations.
 
@@ -17,7 +17,7 @@ Key contributions:
 ## Highlights / Key Features
 - **Feature Engineering & Selection**
   - Weight of Evidence (WOE) transformation and Information Value (IV) based binning.
-  - Recursive Feature Elimination (RFE) to remove redundant features and simplify the model.
+  
 - **Modeling**
   - XGBoost as the primary predictive model with structured hyperparameter tuning.
   - Baseline model comparisons to evaluate uplift from feature engineering and tuning.
