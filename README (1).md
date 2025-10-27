@@ -19,10 +19,12 @@ Key contributions:
   - Weight of Evidence (WOE) transformation and Information Value (IV) based binning.
   
 - **Modeling**
-  - XGBoost as the primary predictive model with structured hyperparameter tuning.
-  - Baseline model comparisons to evaluate uplift from feature engineering and tuning.
+  - XGBoost used as the primary predictive model with systematic hyperparameter tuning to improve discrimination and generalization.
+  - Hyperopt leveraged for automated hyperparameter optimization using Bayesian search, improving tuning efficiency and reducing manual experimentation effort.
+  - Baseline model developed to quantify uplift from feature engineering, feature-selection workflows, and tuning strategies.
+    
 - **Validation & Governance**
-  - Use of metrics beyond accuracy: Matthews Correlation Coefficient (MCC), Brier Score, and Discriminatory Power Index (DPI).
+  - Use of metrics beyond accuracy & Gini: Matthews Correlation Coefficient (MCC), Brier Score, and Discriminatory Power Index (DPI).
   - Comprehensive diagnostic reports for stakeholders covering model performance, stability, and interpretability.
 - **Reproducibility**
   - Notebook(s) and scripts to reproduce experiments, tune hyperparameters, and generate validation reports.
